@@ -1,5 +1,5 @@
 
-```markdown
+```` `
 # Personal Academic Website – Update Guide
 
 This repository hosts the source files for my personal academic website (hosted via GitHub Pages).
@@ -9,7 +9,7 @@ This short guide explains **which files control which parts of the website**, an
 
 ---
 
-## 1. Updating the Curriculum Vitae (CV)
+## 1. Updating the CV
 
 **File to update:**
 ```
