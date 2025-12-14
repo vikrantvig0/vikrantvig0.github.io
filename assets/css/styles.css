@@ -49,7 +49,7 @@ h2 { font-size: 16px; }
 
 .top-logo img {
     width: auto;         
-    height: 140px;              
+    height: 130px;              
     display: block;
 }
 
@@ -62,7 +62,7 @@ h2 { font-size: 16px; }
     margin-top: 4px;
     margin-bottom: 22px;
     padding-bottom: 18px;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: none;
 }
 
 
@@ -344,16 +344,39 @@ footer {
     background: none;
     border: none;
     padding: 0;
+
     cursor: pointer;
 
-    font-size: 18px;              
+    font-size: 18px;
     font-weight: 600;
     color: #111;
-    letter-spacing: 0.2px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.bio-toggle:focus {
+    outline: none;
 }
 
 .bio-toggle:hover {
-    text-decoration: underline;
+    background: #f5f5f5;
+    text-decoration: none;
+}
+
+.bio-toggle::before {
+    content: "▸";
+    font-size: 16px;
+    color: #8C1515;
+    transition: transform 0.15s ease;
+}
+
+ 
+.bio-section.open .bio-toggle::before {
+    transform: rotate(90deg);
 }
 
 
