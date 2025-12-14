@@ -36,7 +36,9 @@ e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
     <div class="paper-title">
         {{ paper.id }}. <strong><a href="{{ paper.pdf }}">{{ paper.title }}</a></strong>
         {% if paper.appendix %}<a href="{{ paper.appendix }}" class="appendix-link">[Appendix]</a>{% endif %}
-        <button onclick="toggleAbstract('{{ paper.id }}')" class="abstract-toggle">Abstract</button>
+            {% if workingpaper.abstract %}
+        <button onclick="toggleAbstract('workingpaper-{{ workingpaper.id }}')" class="abstract-toggle">Abstract</button>
+        {% endif %}
     </div>
     <div class="paper-info">
         {% if paper.authors and paper.authors != "" %}(with {{ paper.authors }}){% endif %}{% if paper.date %}{% if paper.authors and paper.authors != "" %}, {% endif %}{{ paper.date }}{% endif %}{% if paper.journal %}, <em>{{ paper.journal }}</em>{% endif %}{% if paper.volume %}. vol.{{ paper.volume }}{% endif %}{% if paper.pages %}, pp {{ paper.pages }}{% endif %}
