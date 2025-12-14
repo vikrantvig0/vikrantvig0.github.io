@@ -2,6 +2,9 @@
 layout: default
 title: Home
 ---
+<div class="top-banner">
+  <img src="assets/img/gsb-banner.jpg" alt="Stanford GSB" />
+</div>
 
 <div class="profile-section">
 <div class="profile-info">
