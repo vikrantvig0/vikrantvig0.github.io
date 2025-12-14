@@ -9,7 +9,7 @@ title: Home
 
 # Vikrant Vig
 
-William R. Timken Professor Chaired Professor of Finance 
+William R. Timken Professor of Finance 
 
 Graduate School of Business, Stanford University
 
