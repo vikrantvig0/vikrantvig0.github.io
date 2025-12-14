@@ -1,39 +1,18 @@
 
-- id: 1
-  title: Embedded Culture as a Source of Comparative Advantage
-  pdf: assets/papers/cultureHandbook.pdf
-  authors: Luigi Guiso and Luigi Zingales
-  journal: Handbook of Culture and Economic Behavior
-  date: Forthcoming
-  abstract: This paper examines how the concept of embedded culture played a transformative role in the ongoing cultural revolution within economics and business.  We trace the field's shift from the 20th-century concept of homo economicus universalis to an approach incorporating cultural embeddedness in economic behavior. Beyond documenting this intellectual transformation, we identify fertile areas for future research and explore how an embedded cultural perspective can enhance both our understanding of economic phenomena and the design of effective policies.
-
-- id: 2
-  title: Overconfidence and Preferences for Competition
-  pdf: assets/papers/PreferenceCompetition.pdf
-  appendix: assets/papers/AppendixPreferenceCompetition.pdf
-  authors: Ernesto Reuben and Luigi Zingales
+- title: The Limits of Model-Based Regulation
+  pdf: assets/papers/2022_JF.pdf
+  authors: Markus Behn and Rainer Haselmann
   journal: Journal of Finance
-  date: April 2024
-  pages: 1087-1121
-  abstract: We study whether and when preferences for competition are a positive economic
-    trait among high-earners and to what extent this trait can explain the gender
-    gap in income among MBAs. Consistent with the experimental evidence, preferences
-    for competition are a positive economic trait only for non-overconfident individuals.
-    Preferences for competition correlate with income only at graduation when bonuses
-    are guaranteed and not a function of performance. Overconfident, competitionloving
-    MBAs have lower compensation and income growth, and experience greater exit from
-    high-reward industries and more frequent job interruptions. Preferences for competition
-    do not explain the gender pay gap among MBAs.
+  date: 2022
+  abstract: Using loan-level data from Germany, we investigate how the introduction of modelbased capital regulation affected banks’ ability to absorb shocks. The objective of this regulation was to enhance financial stability by making capital requirements responsive to asset risk. Our evidence suggests that banks ‘optimized’ model-based regulation to lower their capital requirements. Banks systematically underreported risk, with underreporting being more pronounced for banks with higher gains from it. Moreover, large banks benefitted from the regulation at the expense of smaller banks. Overall, our results suggest that sophisticated rules may have undesired effects if strategic misbehavior is difficult to detect.
 
-- id: 3
-  title: 'Diversity in Schools: Immigrants and the Educational Performance of U.S. Born Students'
+
+- title: 'Diversity in Schools: Immigrants and the Educational Performance of U.S. Born Students'
   pdf: assets/papers/DiversityinSchools.pdf
   appendix: assets/papers/AppendixAImmigrants.pdf
   authors: David Figlio, Paola Giuliano, Riccardo Marchingiglio, and Umut Ozek
   journal: Review of Economic Studies
-  date: March 2024
-  volume: '91'
-  pages: 972-1006
+  date: 2021
   abstract: We study the effect of exposure to immigrants on the educational outcomes
     of U.S.-born students, using a unique dataset combining population-level birth
     and school records from Florida. This research question is complicated by substantial
