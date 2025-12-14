@@ -7,24 +7,22 @@ title: Home
 <div class="profile-info">
 {% capture profile_content %}
 
-# Paola Sapienza
+# Vikrant Vig
 
-Hoover Institution, Stanford University
-George P. Schulz Building, #316
-426 Galvez Mall
+Graduate School of Business, Stanford University
+655 Knight Way
 Stanford, CA 94305
-e-mail: [PaolaSapienza@stanford.edu](mailto:paolaSapienza@stanford.edu)
+e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
 
 [Curriculum vitae]({{ '/assets/cv/CV.pdf' | relative_url }})  
-[Hoover bio](https://www.hoover.org/profiles/paola-sapienza)  
-[Financial Trust Index](http://www.financialtrustindex.org/)  
-[Google Scholar Page](https://scholar.google.com/citations?user=sP8pxEMAAAAJ&hl=en)
+[Stanford GSB page](https://www.gsb.stanford.edu/faculty-research/faculty/vikrant-vig)  
+[Google Scholar Page](https://scholar.google.com/citations?user=dol7xHwAAAAJ&hl=en)
 
 {% endcapture %}
 {{ profile_content | markdownify }}
 </div>
 
-<img src="{{ '/assets/images/Sapienza_08_new.bmp' | relative_url }}" alt="Paola Sapienza" class="profile-image">
+<img src="{{ '/assets/images/profile.png' | relative_url }}" alt="vikrant vig" class="profile-image">
 
 </div>
 
