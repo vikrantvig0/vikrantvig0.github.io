@@ -68,75 +68,30 @@
   date: 2014
   abstract: We study the wealth accumulation of Indian state politicians using public disclosures required of all candidates. The annual asset growth of winners is 3–5 percent higher than that of runners-up, a difference that holds also in a set of close elections. The relative asset growth of winners is greater in more corrupt states and for those holding ministerial positions. These results are consistent with a rent-seeking explanation for the relatively high rate of growth in winners’ assets.
 
-  title: Access to Collateral and Corporate Debt Structure: Evidence from a Natural Experiment
-  pdf: assets/papers/Monnet_EP_format.pdf
-  authors: Luigi Guiso and Luigi Zingales
-  journal: Economic Policy
-  date: 2016
-  volume: '31'
-  pages: 247-297
-  abstract: "Entering a currency union without any political union European countries
-    have taken a gamble: will the needs of the currency unions force a political integration
-    (as anticipated by Monnet) or will the tensions create a backlash, as suggested
-    by Kaldor, Friedman and many others? We try to answer this question by analyzing
-    the cross sectional and time series variation in pro-European sentiments in the
-    EU 15 countries. The 1992 Maastricht Treaty seems to have reduced the pro-Europe
-    sentiment as does the 2010 Eurozone crisis. Yet, in spite of the worst recession
-    in recent history, the Europeans still support the common currency. Europe seems
-    trapped: there is no desire to go backward, no interest in going forward, but
-    it is economically unsustainable to stay still."
+  title: "Access to Collateral and Corporate Debt Structure: Evidence from a Natural Experiment"
+  pdf: assets/papers/2013_JF.pdf
+  journal: Journal of Finance 
+  date: 2013
+  abstract: We investigate how firms respond to strengthening of creditor rights by examining their financial decisions following a securitization reform in India. We find that the reform led to a reduction in secured debt, total debt, debt maturity, and asset growth, and an increase in liquidity hoarding by firms. Moreover, the effects are more pronounced for firms that have a higher proportion of tangible assets because these firms are more affected by the secured transactions law. These results suggest that strengthening of creditor rights introduces a liquidation bias and documents how firms alter their debt structures to contract around it.
 
-- id: 13
-  title: Corporate Culture, Societal Culture, and Institutions
-  pdf: assets/papers/aerp20151074.pdf
-  authors: Luigi Guiso and Luigi Zingales
-  journal: American Economic Review, Papers and Proceedings
-  date: 2015
-  volume: 105(5)
-  pages: 336-339
-  abstract: While both cultural and legal norms (institutions) help foster cooperation,
-    culture is the more primitive of the two and itself sustains formal institutions.
-    Cultural changes are rarer and slower than changes in legal institutions, which
-    makes it difficult to identify the role played by culture. Cultural changes and
-    their effects are easier to identify in simpler, more controlled, environments,
-    such as corporations. Corporate culture, thus, is not only interesting per se,
-    but also as a laboratory to study the role of societal culture and the way it
-    can be changed.
+  title: "Lender Screening and the Role of Securitization: Evidence from Prime and Subprime Mortgage Markets"
+  pdf: assets/papers/2012_RFS.pdf
+  authors: B. Keys and A. Seru
+  journal: Review of Financial Studies
+  date: 2012
+  abstract: "This article examines the link between mortgage securitization and lender screening during the boom and bust of the U.S. housing market. Using comprehensive data on both prime and subprime securitized and bank-held loans, we provide evidence that securitization affected lenders' screening decisions in the subprime market for low-documentation loans through two channels: the securitization rate and the time it takes to securitize a loan. The change in decision-making by subprime lenders occurs on dimensions that are unreported to investors. Examining the time-series evolution of the securitization market further reinforces these findings. We exploit heterogeneity across subprime and prime markets to illustrate that the potential for moral hazard may be reduced with greater collection of hard information and increased monitoring of lenders. Our results suggest that the policy debate regarding securitization and lenders' underwriting standards should separately evaluate the agency and non-agency markets, with special attention toward the extent of soft information in assets being securitized."
 
-- id: 14
-  title: The Value of Corporate Culture
-  pdf: assets/papers/CorporateCulture.pdf
-  authors: Luigi Guiso and Luigi Zingales
-  journal: Journal of Financial Economics
-  date: 2015
-  volume: 117(1)
-  pages: 60-76
-  abstract: We study which dimensions of corporate culture are related to a firm'
-    performance and why. We find that proclaimed values appear irrelevant. Yet, when
-    employees perceive top managers as trustworthy and ethical, firm' performance
-    is stronger. We then study how different governance structures impact the ability
-    to sustain integrity as a corporate value. We find that publicly traded firms
-    are less able to sustain it. Traditional measures of corporate governance do not
-    seem to have much of an impact.
+  title: Did Securitization Lead to Lax Screening? Evidence from Subprime Loans
+  pdf: assets/papers/2010_QJE.pdf
+  authors: B. Keys, T.Mukherjee and A. Seru
+  journal: Quarterly Journal of Economics
+  date: 2010
+  abstract: "A central question surrounding the current subprime crisis is whether the securitization process reduced the incentives of financial intermediaries to carefully screen borrowers. We examine this issue empirically using data on securitized subprime mortgage loan contracts in the United States. We exploit a specific rule of thumb in the lending market to generate exogenous variation in the ease of securitization and compare the composition and performance of lenders' portfolios around the ad hoc threshold. Conditional on being securitized, the portfolio with greater ease of securitization defaults by around 10%–25% more than a similar risk profile group with a lesser ease of securitization. We conduct additional analyses to rule out differential selection by market participants around the threshold and lenders employing an optimal screening cutoff unrelated to securitization as alternative explanations. The results are confined to loans where intermediaries' screening effort may be relevant and soft information about borrowers determines their creditworthiness. Our findings suggest that existing securitization practices did adversely affect the screening incentives of subprime lenders."
 
-- id: 15
-  title: Procrastination and Impatience
-  pdf: assets/papers/ProcrastinationImpatience.pdf
-  authors: Ernesto Reuben and Luigi Zingales
-  journal: Journal of Behavioral and Experimental Economics
-  date: 2015
-  pages: 63-76
-  abstract: "We use a combination of lab and field evidence to study whether highly-impatient
-    individuals are more likely to procrastinate. To measure impatience, we elicit
-    individual discount rates by giving participants choices between smaller-sooner
-    and larger-later rewards. To measure procrastination, we record how fast participants
-    complete three tasks: an online game, their application to the university, and
-    a mandatory survey. We find that, consistent with the theory, impatient individuals
-    procrastinate more, but only in tasks where there are costs to delay (the online
-    game and university application). Since we paid participants by check to control
-    for transaction costs, we are also able to determine whether the participants'
-    cashing behavior is consistent with the timing of their payment choice. We find
-    substantial evidence of time inconsistency. Namely, more than half of the participants
-    who received their check straight away instead of waiting two weeks for a reasonably
-    larger amount, subsequently took more than two weeks to cash it."
+  title: How Law Affects Lending
+  pdf: assets/papers/2010_RFS.pdf
+  authors: R. Haselmann and K. Pistor
+  journal: Review of Financial Studies
+  date: 2010
+  abstract: The paper investigates the effect of legal change on the lending behavior of banks in twelve transition economies. First, we find that banks increase the supply of credit subsequent to legal change. Second, changes in collateral law matter more for increases in bank lending than do changes in bankruptcy law. We attribute this finding to the different functions of collateral and bankruptcy law. While the former enhances the likelihood that individual creditors can realize their claims against a debtor, the latter ensures an orderly process for resolving multiple, and often conflicting, claims after a debtor has become insolvent. Finally, we find that foreign-owned banks respond more strongly to legal change than incumbents.
 
