@@ -1,106 +1,45 @@
 
-- title: The Limits of Model-Based Regulation
+  title: The Limits of Model-Based Regulation
   pdf: assets/papers/2022_JF.pdf
-  authors: Markus Behn and Rainer Haselmann
+  authors: M. Behn and R. Haselmann
   journal: Journal of Finance
   date: 2022
   abstract: Using loan-level data from Germany, we investigate how the introduction of modelbased capital regulation affected banks’ ability to absorb shocks. The objective of this regulation was to enhance financial stability by making capital requirements responsive to asset risk. Our evidence suggests that banks ‘optimized’ model-based regulation to lower their capital requirements. Banks systematically underreported risk, with underreporting being more pronounced for banks with higher gains from it. Moreover, large banks benefitted from the regulation at the expense of smaller banks. Overall, our results suggest that sophisticated rules may have undesired effects if strategic misbehavior is difficult to detect.
 
-
-- title: 'Diversity in Schools: Immigrants and the Educational Performance of U.S. Born Students'
-  pdf: assets/papers/DiversityinSchools.pdf
-  appendix: assets/papers/AppendixAImmigrants.pdf
-  authors: David Figlio, Paola Giuliano, Riccardo Marchingiglio, and Umut Ozek
-  journal: Review of Economic Studies
+  title: Talent in Distressed Firms: Investigating the Labor Costs of Financial Distress
+  pdf: assets/papers/2021_JF.pdf
+  authors: R. Baghai, R. Silva and V. Thell
+  journal: Journal of Finance
   date: 2021
-  abstract: We study the effect of exposure to immigrants on the educational outcomes
-    of U.S.-born students, using a unique dataset combining population-level birth
-    and school records from Florida. This research question is complicated by substantial
-    school selection of U.S.-born students, especially among White and comparatively
-    affluent students, in response to the presence of immigrant students in the school.
-    We propose a new identification strategy, comparing sibling outcomes with the
-    inclusion of family fixed effects, to partial out the unobserved non-random selection
-    of native-born families into schools. We find that the presence of immigrant students
-    has a positive effect on the academic achievement of U.S.-born students, especially
-    for students from disadvantaged backgrounds. Moreover, the presence of immigrants
-    does not negatively affect the performance of affluent U.S.-born students, who
-    typically show a higher academic achievement compared to immigrant students. We
-    provide suggestive evidence on potential channels.
+  abstract: The importance of skilled labor and the inalienability of human capital expose firms to the risk of losing talent at critical times. Using Swedish microdata, we document that firms lose workers with the highest cognitive and noncognitive skills as they approach bankruptcy. In a quasi-experiment, we confirm that financial distress drives these results: following a negative export shock caused by exogenous currency movements, talent abandons the firm, but only if the exporter is highly leveraged. Consistent with talent dependence being associated with higher labor costs of financial distress, firms that rely more on talent have more conservative capital structures.
 
-- id: 4
-  title: Effect of Mood and Worker Incentives on Workplace Productivity
-  pdf: assets/papers/Mood.pdf
-  authors: Decio Coviello, Erika Deserrano, and Nicola Persico
-  journal: The Journal of Law, Economics & Organization
-  date: September 2022
-  abstract: We study the causal effect of mood on the productivity of call-center
-    workers. Mood is measured through an online "mood questionnaire" which the workers
-    are encouraged to fill out daily. We find that better mood actually decreases
-    worker productivity for workers whose compensation is largely fixed. The negative
-    effect of mood is attenuated for workers whose compensation is based on performance
-    (high-powered incentives). This finding holds both at a correlational level and
-    in two IV settings, where mood is instrumented for by weather, or, alternatively,
-    by whether the local professional sports team played/won the day before. We rule
-    out a number of threats to the exclusion restrictions, and discuss the mechanisms
-    that could generate our findings.
+  title: Leverage Buyouts and Bond Credit Spreads
+  pdf: assets/papers/2020_JFE.pdf
+  authors: Y. Eisenthal and P. Feldhutter
+  journal: Journal of Financial Economics 
+  date: 2020
+  abstract: Recent decades have witnessed several waves of buyout activity. We find leveraged buyouts (LBOs) to be a significant concern for bondholders by showing that a) intra-industry credit spreads increase upon an LBO announcement, b) yields on bonds without event risk covenants are, on average, 21 basis points higher than those on same-firm bonds with such covenants, and c) structural models calibrated to historical LBO events imply an impact of 18–21 basis points on 10-year credit spreads. The impact is strongest in expansion periods and for bonds with maturities of 10–20 years.
+  
+  title: Experience of Communal Conflicts and Inter-group Lending
+  pdf: assets/papers/2020_JPE.pdf
+  authors: R. Fisman, A.Sarkar and J. Skrastins
+  journal: Journal of Political Economy
+  date: 2020
+  abstract: We provide microeconomic evidence on ethnic frictions and market efficiency, using dyadic data on managers and borrowers from a large Indian bank. We conjecture that, if exposure to religion-based communal violence intensifies intergroup animosity, riot exposure will lead to lending decisions that are more sensitive to a borrower’s religion. We find that riot-exposed Hindu branch managers lend relatively less to Muslim borrowers and that these loans are less likely to default, consistent with riot exposure exacerbating taste-based discrimination. This bias is persistent across a bank officer’s tenure, suggesting that the economic costs of ethnic conflict are long-lasting, potentially spanning across generations.
 
-- id: 5
-  title: The Family Origin of the Math Gender Gap is a White Affluent Phenomenon
-  pdf: assets/papers/AER_PP_Gender_20201226.pdf
-  appendix: assets/papers/AER_PP_Gender_appendix_20201226.pdf
-  authors: Gaia Dossi, David Figlio, and Paola Giuliano
-  journal: American Economic Review
-  date: May 2021
-  pages: 179-183
-  abstract: We study the heterogeneity of the impact of gender bias transmission within
-    families for the gender gap in mathematics. We find that the phenomenon is concentrated
-    in white affluent families, lending support to the hypothesis that parents support
-    of their children through investment in education is the main mechanism through
-    which differential gender achievements is obtained. Families with more resources
-    and biased attitudes toward women are more likely to have a negative impact on
-    their daughters' education (JEL A0,D01,D9,Z1)
+  title: How Organizational Hierarchy Affects Information Production
+  pdf: assets/papers/2019_RFS.pdf
+  authors: J. Skrastins
+  journal: Review of Financial Studies
+  date: 2019
+  abstract: We exploit a variation in organizational hierarchy induced by a reorganization plan implemented in roughly 2,000 bank branches in India. We do so to investigate how organizational hierarchy affects the allocation of credit. We find that increased hierarchization of a branch induces credit rationing, reduces loan performance, and generates standardization in loan contracts. Additionally, we find that hierarchical structures perform better in environments characterized by a high degree of corruption, highlighting the benefits of hierarchies in restraining rent-seeking activities. Overall, our results are consistent with the view that valuable information may be lost in hierarchical structures.
 
-- id: 6
-  title: 'Born in the Family: Preferences for Boys and the Gender Gap in Math'
-  pdf: assets/papers/Borninthefamily.pdf
-  appendix: assets/papers/BornintheFamilyOnlineAppendix_December2020.pdf
-  authors: Gaia Dossi, David Figlio, and Paola Giuliano
-  journal: Journal of Economic Behavior and Organization
-  date: March 2021
-  pages: 175-188
-  abstract: We study the effect of preferences for boys on the performance in mathematics
-    of girls, using evidence from two different data sources. In our first set of
-    results, we identify families with a preference for boys by using fertility stopping
-    rules in a large population of households whose children attend public schools
-    in Florida. Girls growing up in a boy-biased family score on average 3 percentage
-    points lower on math tests when compared to girls raised in other types of families.
-    In our second set of results, we find similar effects when we study the correlations
-    between girls� performance in mathematics and maternal gender role attitudes,
-    using evidence from the National Longitudinal Survey of Youth. We conclude that
-    socialization at home can explain a non-trivial part of the observed gender disparities
-    in mathematics performance and document that maternal gender attitudes correlate
-    with those of their children, supporting the hypothesis that preferences transmitted
-    through the family impact children behavior.
-
-- id: 7
-  title: Civic Capital and Social Distancing during the Covid-19 Pandemic
-  pdf: assets/papers/Covid.pdf
-  appendix: assets/papers/CovidAppendix.pdf
-  authors: John M. Barrios, Efraim Benmelech, Yael V. Hochberg, and Luigi Zingales
-  journal: Journal of Public Economics
-  date: January 2021
-  abstract: Using mobile phone and survey data, we show that during the early phases
-    of COVID-19, voluntary social distancing was greater in areas with higher civic
-    capital and amongst individuals exhibiting a higher sense of civic duty. This
-    effect is robust to including controls for political ideology, income, age, education,
-    and other local-level characteristics. This result is present for U.S. individuals
-    and U.S. counties as well as European regions. Moreover, we show that after U.S.
-    states began re-opening, high civic capital counties maintained a more sustained
-    level of social distancing, while low civic capital counties did not. Finally,
-    we show that U.S. individuals report a higher tendency to use protective face
-    masks in high civic capital counties. Our evidence points to the importance of
-    considering the level of civic capital in designing public policies not only in
-    response to pandemics, but also more generally.
+  title: Rent Seeking in Elite Networks
+  pdf: assets/papers/2018_JPE.pdf
+  authors: R. Haselmann and D. Schoenherr
+  journal: Journal of Political Economy 
+  date: 2018
+  abstract: We employ a unique data set on members of an elite service club in Germany to investigate how social connections in elite networks affect the allocation of resources. Specifically, we investigate credit allocation decisions of banks to firms inside the network. Using a quasi-experimental research design, we document misallocation of bank credit inside the network, with bankers with weakly aligned incentives engaging most actively in crony lending. Our findings, thus, resonate with existing theories of elite networks as rent extractive coalitions that stifle economic prosperity.
 
 - id: 8
   title: The Cost of Being too Patient
