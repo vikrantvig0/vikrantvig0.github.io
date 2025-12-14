@@ -1,4 +1,3 @@
-
   title: The Limits of Model-Based Regulation
   pdf: assets/papers/2022_JF.pdf
   authors: M. Behn and R. Haselmann
@@ -41,56 +40,26 @@
   date: 2018
   abstract: We employ a unique data set on members of an elite service club in Germany to investigate how social connections in elite networks affect the allocation of resources. Specifically, we investigate credit allocation decisions of banks to firms inside the network. Using a quasi-experimental research design, we document misallocation of bank credit inside the network, with bankers with weakly aligned incentives engaging most actively in crony lending. Our findings, thus, resonate with existing theories of elite networks as rent extractive coalitions that stifle economic prosperity.
 
-- id: 8
-  title: The Cost of Being too Patient
-  pdf: assets/papers/patience_happiness.pdf
-  authors: Paola Giuliano
+  title: Cultural Proximity and Loan Outcomes
+  pdf: assets/papers/2017_AER.pdf
+  authors: R. Fisman and D. Paravisini
   journal: American Economic Review
-  date: May 2020
-  pages: 314-18
-  abstract: 'We study the cost of being too patient on happiness. We find that the
-    relationship between patience and various measures of subjective well-being is
-    hump-shaped: it exists an optimal amount of patience that maximizes happiness.
-    Beyond this optimal level, higher levels of patience have a negative impact on
-    well-being. (JEL A0,D01,D9,Z1)'
+  date: 2017
+  abstract: We present evidence that cultural proximity (shared codes, beliefs, ethnicity) between lenders and borrowers increases the quantity of credit and reduces default. We identify in-group lending using dyadic data on religion and caste for officers and borrowers from an Indian bank, and a rotation policy that induces exogenous matching between them. Having an in-group officer increases credit access and loan size dispersion, reduces collateral requirements, and induces better repayment even after the in-group officer leaves. We consider a range of explanations and suggest that the findings are most easily explained by cultural proximity serving to mitigate information frictions in lending.
 
-- id: 9
-  title: Long-Term Orientation and Educational Performance
-  pdf: assets/papers/LTOForthcoming.pdf
-  appendix: assets/papers/Online_Appendix_LTO.pdf
-  authors: David Figlio, Paola Giuliano, and Umut Ozek
-  journal: 'American Economic Journal: Economic Policy'
-  date: November 2019
-  volume: '11'
-  pages: 272-309
-  abstract: We study the role of Long-Term Orientation on the educational attainment
-    of immigrant students. Controlling for the quality of schools and socio-economic
-    characteristics, students from long-term oriented cultures perform better in third
-    grade reading and math, have larger test score gains over time, fewer absences
-    and disciplinary incidents, are less likely to repeat grades, more likely to enroll
-    in advanced high school courses and more likely to graduate from high school in
-    four years. Evidence on mechanisms suggests that both parents' educational choices
-    for their children and social learning from peers are important mechanisms. (JEL
-    I20, I24, J15, Z1)
+  title: Labor Protection and Leverage
+  pdf: assets/papers/2015_RFS.pdf
+  authors: E. Simintzi and P. Volpin
+  journal: Review of Financial Studies 
+  date: 2015
+  abstract: This paper exploits intertemporal variations in employment protection across countries and finds that rigidities in labor markets are an important determinant of firms' capital structure decisions. Over the 1985–2007 period, we find that reforms increasing employment protection are associated with a 187 basis point reduction in leverage. We interpret this finding to suggest that employment protection increases operating leverage, crowding out financial leverage. This result does not appear to be due to pretreatment differences between treated and control firms, omitted variables, unobserved changes in regional economic conditions, and reverse causality. Heterogeneous treatment effects are consistent with our economic intuition.
 
-- id: 10
-  title: Time Varying Risk Aversion
-  pdf: assets/papers/RiskAversion.pdf
-  appendix: assets/papers/RiskAversionAppendix.pdf
-  authors: Luigi Guiso and Luigi Zingales
+  title: The Failure of Models that Predict Failure: Distance, Incentives, and Defaults
+  pdf: assets/papers/2015_JFE.pdf
+  authors: U. Rajan and A. Seru
   journal: Journal of Financial Economics
-  date: June 2018
-  volume: '128'
-  pages: 403-421
-  abstract: "Exploiting portfolio data and repeated surveys of an Italian bank clients
-    we test whether investors' risk aversion increases following the 2008 crisis.
-    We find that, after the crisis, both qualitative and quantitative measures of
-    risk aversion increase substantially and that affected individuals divest more
-    from stock. We investigate four explanations: changes in wealth, expected income,
-    perceived probabilities, and emotion-based changes of the utility function. Our
-    data are inconsistent with the first two channels, while they suggest that fear
-    is a potential mechanism underlying financial decisions, whether by increasing
-    the curvature of the utility function or the salience of negative outcomes."
+  date: 2015
+  abstract: Statistical default models, widely used to assess default risk, fail to account for a change in the relations between different variables resulting from an underlying change in agent behavior. We demonstrate this phenomenon using data on securitized subprime mortgages issued in the period 1997–2006. As the level of securitization increases, lenders have an incentive to originate loans that rate high based on characteristics that are reported to investors, even if other unreported variables imply a lower borrower quality. Consistent with this behavior, we find that over time lenders set interest rates only on the basis of variables that are reported to investors, ignoring other credit-relevant information. As a result, among borrowers with similar reported characteristics, over time the set that receives loans becomes worse along the unreported information dimension. This change in lender behavior alters the data generating process by transforming the mapping from observables to loan defaults. To illustrate this effect, we show that the interest rate on a loan becomes a worse predictor of default as securitization increases. Moreover, a statistical default model estimated in a low securitization period breaks down in a high securitization period in a systematic manner: it underpredicts defaults among borrowers for whom soft information is more valuable. Regulations that rely on such models to assess default risk could, therefore, be undermined by the actions of market participants.
 
 - id: 11
   title: Long Term Persistence
