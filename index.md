@@ -32,7 +32,7 @@ e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
 
 </div>
 
-## Research Papers
+## Published Papers
 
 {% for paper in site.data.papers %}
 <div class="paper-entry">
