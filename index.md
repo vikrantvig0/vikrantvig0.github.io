@@ -34,7 +34,7 @@ e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
 {% for paper in site.data.papers %}
 <div class="paper-entry">
   <div class="paper-title">
-    {{ paper.id }}.
+    {{ forloop.index }}.
     <strong><a href="{{ paper.pdf }}">{{ paper.title }}</a></strong>
 
     {% if paper.appendix %}
@@ -42,41 +42,28 @@ e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
     {% endif %}
 
     {% if paper.abstract %}
-      <button
-        onclick="toggleAbstract('paper-{{ paper.id }}')"
-        class="abstract-toggle"
-      >
+      <button onclick="toggleAbstract('paper-{{ forloop.index }}')" class="abstract-toggle">
         Abstract
       </button>
     {% endif %}
   </div>
 
   <div class="paper-info">
-    {% if paper.authors and paper.authors != "" %}
-      (with {{ paper.authors }})
-    {% endif %}
-
-    {% if paper.date %}
-      {% if paper.authors and paper.authors != "" %}, {% endif %}
-      {{ paper.date }}
-    {% endif %}
-
+    {% if paper.authors and paper.authors != "" %}(with {{ paper.authors }}){% endif %}
+    {% if paper.date %}{% if paper.authors and paper.authors != "" %}, {% endif %}{{ paper.date }}{% endif %}
     {% if paper.journal %}, <em>{{ paper.journal }}</em>{% endif %}
     {% if paper.volume %}. vol.{{ paper.volume }}{% endif %}
     {% if paper.pages %}, pp {{ paper.pages }}{% endif %}
   </div>
 
   {% if paper.abstract %}
-    <div
-      id="abstract-paper-{{ paper.id }}"
-      class="abstract"
-      style="display: none;"
-    >
+    <div id="abstract-paper-{{ forloop.index }}" class="abstract" style="display:none;">
       {{ paper.abstract }}
     </div>
   {% endif %}
 </div>
 {% endfor %}
+
 
 
 ## Working Papers
