@@ -9,11 +9,11 @@ title: Home
 
 # Vikrant Vig
 
+William R. Timken Professor Chaired Professor of Finance 
+
 Graduate School of Business, Stanford University
 
-655 Knight Way
-
-Stanford, CA 94305
+655 Knight Way, Stanford, CA 94305
 
 e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
 
