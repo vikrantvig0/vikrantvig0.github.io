@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <div class="top-logo">
-  <img src="assets/images/GSB_Logo.png" alt="Stanford GSB" />
+  <img src="assets/images/GSB_logo.png" alt="Stanford GSB" />
 </div>
 
 <div class="profile-section">
