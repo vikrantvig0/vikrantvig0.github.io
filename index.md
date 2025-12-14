@@ -36,8 +36,8 @@ e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
     <div class="paper-title">
         {{ paper.id }}. <strong><a href="{{ paper.pdf }}">{{ paper.title }}</a></strong>
         {% if paper.appendix %}<a href="{{ paper.appendix }}" class="appendix-link">[Appendix]</a>{% endif %}
-            {% if workingpaper.abstract %}
-        <button onclick="toggleAbstract('workingpaper-{{ workingpaper.id }}')" class="abstract-toggle">Abstract</button>
+            {% if paper.abstract %}
+        <button onclick="toggleAbstract('workingpaper-{{ paper.id }}')" class="abstract-toggle">Abstract</button>
         {% endif %}
     </div>
     <div class="paper-info">
