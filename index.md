@@ -2,8 +2,8 @@
 layout: default
 title: Home
 ---
-<div class="top-logo">
-  <img src="assets/images/GSB_logo.png" alt="Stanford GSB" />
+<div class="top-logo"> 
+  <img src="{{ '/assets/images/GSB_logo.png' | relative_url }}"  alt="Stanford GSB" />
 </div>
 
 <div class="profile-section">
