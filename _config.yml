@@ -1,9 +1,0 @@
-title: Vikrant Vig
-description: Academic Website
-baseurl: ""
-url: ""
-
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-feed
