@@ -331,3 +331,33 @@ footer {
 .tab-panel.is-active {
     display: block;
 }
+
+/* ===== Biography section ===== */
+.bio-section {
+    margin: 14px 0 20px 0;
+}
+
+.bio-toggle {
+    appearance: none;
+    background: #fff;
+    border: 1px solid rgba(140, 21, 21, 0.35);
+    color: #8C1515;
+    padding: 0.35em 0.9em;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.bio-toggle:hover {
+    background: #f7f7f7;
+}
+
+.bio-content {
+    margin-top: 12px;
+    padding: 14px 16px;
+    background: #fafafa;
+    border-left: 4px solid #8C1515;
+    border-radius: 10px;
+    line-height: 1.55;
+}
+
