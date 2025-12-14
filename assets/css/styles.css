@@ -2,16 +2,18 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFFFFF;
-    line-height: 1.4;
+    line-height: 1.55;
     margin: 0;
     padding: 0;
+    font-size: 12px;
+    color: #111;
 }
 
 /* Container */
 .container {
     width: 790px;
     margin: 0 auto;
-    padding: 20px 20px 40px 20px;
+    padding: 18px 20px 40px 20px;
 }
 
 /* Links */
@@ -24,10 +26,7 @@ a:hover {
     text-decoration: underline;
 }
 
-a:active {
-    color: #8C1515;
-}
-
+a:active,
 a:visited {
     color: #8C1515;
 }
@@ -35,72 +34,117 @@ a:visited {
 /* Headers */
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
+    margin-top: 0.35em;
+    margin-bottom: 0.35em;
+    line-height: 1.25;
 }
 
-h1 {
-    font-size: 18px;
-    margin-top: 0.25em;
+h1 { font-size: 20px; }
+h2 { font-size: 16px; }
+
+/* ===== Top banner ===== */
+.top-banner {
+    width: 100%;
+    margin: 0 0 14px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #eee;
 }
 
-h2 {
-    font-size: 16px;
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
+.top-banner img {
+    width: 100%;
+    height: 160px;        /* 调整横幅高度：120–220 都可以 */
+    object-fit: cover;
+    display: block;
 }
 
-body {
-    font-size: 12px; 
-}
-
-/* Profile section */
+/* ===== Profile section ===== */
 .profile-section {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 1em;  
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 16px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Put image on the LEFT */
+.profile-image {
+    order: 0;
+    width: 150px;         /* 头像大小：130–170 建议 */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;  /* 想圆形就改成 50% */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    margin: 0;            /* 覆盖你原来的 margin-top */
 }
 
 .profile-info {
+    order: 1;
     flex: 1;
-    padding-right: 2em;
-    max-width: 50%;  /* Give even more space to image */
+    padding-right: 0;
+    max-width: none;
 }
 
-.profile-image {
-    width: 30%;  /* Use percentage instead of max-width */
-    height: auto;
-    margin-top: 0.75em;
+.links-section {
+    margin: 0.6em 0 0 0;
 }
 
-/* Papers list */
+.links-section a {
+    display: inline-block;    /* 让链接横向更紧凑 */
+    margin: 0.15em 0.8em 0.15em 0;
+}
+
+/* ===== Papers list ===== */
 .papers-list {
-    margin-top: 1em;
+    margin-top: 12px;
 }
 
-/* Paper entries and abstract functionality */
+/* Entries (paper/summary/writing) */
 .paper-entry,
 .summary-entry,
-.writing-entry {
-    margin-bottom: 0.75em;
-    padding-bottom: 0;
+.writing-entry,
+.workingpaper-entry {
+    margin: 10px 0;
+    padding: 10px 12px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.08s ease-in-out;
 }
 
+.paper-entry:hover,
+.workingpaper-entry:hover,
+.summary-entry:hover,
+.writing-entry:hover {
+    transform: translateY(-1px);
+}
+
+/* Titles */
 .paper-title,
 .summary-title,
-.writing-title {
-    font-weight: bold;
-    margin-bottom: 0.25em;
-    display: inline;
+.writing-title,
+.workingpaper-title {
+    font-weight: 700;
+    margin-bottom: 6px;
+    display: block;
+    line-height: 1.35;
 }
 
+.paper-title a,
+.workingpaper-title a {
+    color: #8C1515;
+}
+
+/* Info line */
 .paper-info,
 .summary-info,
-.writing-info {
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
-    line-height: 1.4;
+.writing-info,
+.workingpaper-info {
+    margin-top: 6px;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #333;
 }
 
 .paper-authors {
@@ -109,24 +153,26 @@ body {
 
 /* Abstract styles */
 .abstract {
-    margin: 0.5em 0;
-    padding: 0.75em;
-    background-color: #f5f5f5;
-    border-left: 3px solid #8C1515;
-    font-size: 0.9em;
+    margin: 10px 0 0 0;
+    padding: 10px 12px;
+    background-color: #fafafa;
+    border-left: 4px solid #8C1515;
+    border-radius: 8px;
+    font-size: 0.95em;
+    color: #222;
 }
 
 /* Abstract toggle button */
 .abstract-toggle {
     display: inline-block;
-    margin-left: 0.5em;
-    padding: 0.2em 0.5em;
+    margin-left: 10px;
+    padding: 0.15em 0.75em;
     font-size: 0.9em;
     cursor: pointer;
     color: #8C1515;
-    background: none;
-    border: 1px solid #8C1515;
-    border-radius: 3px;
+    background: #fff;
+    border: 1px solid rgba(140, 21, 21, 0.5);
+    border-radius: 999px;
 }
 
 .abstract-toggle:hover {
@@ -134,26 +180,11 @@ body {
     text-decoration: none;
 }
 
-/* Links section */
-.links-section {
-    margin: 0.5em 0;
-}
-
-.links-section a {
-    display: block;
-    margin: 0.25em 0;
-}
-
-/* PDF links */
-.pdf-link {
-    color: #8C1515;
-    font-weight: bold;
-}
-
 /* Appendix links */
 .appendix-link {
     color: #53565A;
     text-decoration: none;
+    margin-left: 6px;
 }
 
 .appendix-link:hover {
@@ -162,10 +193,11 @@ body {
 
 /* Updates and news section */
 .updates {
-    margin: 2em 0;
-    padding: 1em;
+    margin: 18px 0;
+    padding: 12px;
     background-color: #f9f9f9;
-    border-radius: 4px;
+    border-radius: 10px;
+    border: 1px solid #eee;
 }
 
 /* Citations and references */
@@ -175,23 +207,16 @@ body {
     line-height: 1.4;
 }
 
-/* Journal references */
-.journal {
-    font-style: italic;
-}
-
-/* Year indicators */
-.year {
-    font-weight: bold;
-    color: #666;
-}
+.journal { font-style: italic; }
+.year { font-weight: bold; color: #666; }
 
 /* Footer */
 footer {
-    margin-top: 2em;
-    padding-top: 1em;
+    margin-top: 24px;
+    padding-top: 14px;
     border-top: 1px solid #eee;
-    font-size: 0.9em;
+    font-size: 0.95em;
+    color: #444;
 }
 
 /* Dataset section spacing */
@@ -207,7 +232,7 @@ footer {
 }
 
 .container ul li {
-    margin-bottom: 0.75em;
+    margin-bottom: 0.6em;
 }
 
 /* Responsive design */
@@ -217,26 +242,26 @@ footer {
         padding: 10px;
     }
 
+    .top-banner img {
+        height: 120px;
+    }
+
     .profile-section {
-        flex-direction: column;
+        flex-direction: row;   /* 手机上也保持头像在上/左都行 */
+        align-items: center;
+        gap: 12px;
     }
 
     .profile-image {
-        margin-top: 1em;
-        max-width: 200px;
+        width: 110px;
+        height: 110px;
     }
-    
-    .abstract-toggle {
+
+    h1 { font-size: 20px; }
+    h2 { font-size: 16px; }
+
+    .links-section a {
         display: inline-block;
-        margin: 0.25em;
-        width: auto;
-    }
-    
-    h1 {
-        font-size: 22px;
-    }
-    
-    h2 {
-        font-size: 18px;
+        margin-right: 0.6em;
     }
 }
