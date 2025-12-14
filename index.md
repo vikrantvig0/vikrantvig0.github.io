@@ -32,106 +32,147 @@ e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
 
 </div>
 
-## Published Papers
+## Papers
 
-{% for paper in site.data.papers %}
-<div class="paper-entry">
-  <div class="paper-title">
-    {{ forloop.index }}.
-    <strong><a href="{{ paper.pdf }}">{{ paper.title }}</a></strong>
+<div class="papers-tabs" role="tablist" aria-label="Papers tabs">
+  <button
+    class="tab-btn is-active"
+    id="tab-published"
+    role="tab"
+    aria-selected="true"
+    aria-controls="panel-published"
+    onclick="showPapersTab('published')"
+    type="button"
+  >
+    Published Papers
+  </button>
 
-    {% if paper.appendix %}
-      <a href="{{ paper.appendix }}" class="appendix-link">[Appendix]</a>
-    {% endif %}
+  <button
+    class="tab-btn"
+    id="tab-working"
+    role="tab"
+    aria-selected="false"
+    aria-controls="panel-working"
+    onclick="showPapersTab('working')"
+    type="button"
+  >
+    Working Papers
+  </button>
+</div>
+
+<div class="tab-panel is-active" id="panel-published" role="tabpanel" aria-labelledby="tab-published">
+  {% for paper in site.data.papers %}
+  <div class="paper-entry">
+    <div class="paper-title">
+      {{ forloop.index }}.
+      <strong><a href="{{ paper.pdf }}">{{ paper.title }}</a></strong>
+
+      {% if paper.appendix %}
+        <a href="{{ paper.appendix }}" class="appendix-link">[Appendix]</a>
+      {% endif %}
+
+      {% if paper.abstract %}
+        <button onclick="toggleAbstract('paper-{{ forloop.index }}')" class="abstract-toggle" type="button">
+          Abstract
+        </button>
+      {% endif %}
+    </div>
+
+    <div class="paper-info">
+      {% if paper.authors and paper.authors != "" %}(with {{ paper.authors }}){% endif %}
+      {% if paper.date %}{% if paper.authors and paper.authors != "" %}, {% endif %}{{ paper.date }}{% endif %}
+      {% if paper.journal %}, <em>{{ paper.journal }}</em>{% endif %}
+      {% if paper.volume %}. vol.{{ paper.volume }}{% endif %}
+      {% if paper.pages %}, pp {{ paper.pages }}{% endif %}
+    </div>
 
     {% if paper.abstract %}
-      <button onclick="toggleAbstract('paper-{{ forloop.index }}')" class="abstract-toggle">
-        Abstract
-      </button>
+      <div id="abstract-paper-{{ forloop.index }}" class="abstract" style="display:none;">
+        {{ paper.abstract }}
+      </div>
     {% endif %}
   </div>
-
-  <div class="paper-info">
-    {% if paper.authors and paper.authors != "" %}(with {{ paper.authors }}){% endif %}
-    {% if paper.date %}{% if paper.authors and paper.authors != "" %}, {% endif %}{{ paper.date }}{% endif %}
-    {% if paper.journal %}, <em>{{ paper.journal }}</em>{% endif %}
-    {% if paper.volume %}. vol.{{ paper.volume }}{% endif %}
-    {% if paper.pages %}, pp {{ paper.pages }}{% endif %}
-  </div>
-
-  {% if paper.abstract %}
-    <div id="abstract-paper-{{ forloop.index }}" class="abstract" style="display:none;">
-      {{ paper.abstract }}
-    </div>
-  {% endif %}
+  {% endfor %}
 </div>
-{% endfor %}
 
+<div class="tab-panel" id="panel-working" role="tabpanel" aria-labelledby="tab-working">
+  {% for workingpaper in site.data.working_papers.working_papers %}
+  <div class="workingpaper-entry">
+    <div class="workingpaper-title">
+      {{ forloop.index }}.
+      <strong>
+        {% if workingpaper.pdf %}
+          <a href="{{ workingpaper.pdf }}">{{ workingpaper.title }}</a>
+        {% elsif workingpaper.link %}
+          <a href="{{ workingpaper.link }}">{{ workingpaper.title }}</a>
+        {% else %}
+          {{ workingpaper.title }}
+        {% endif %}
+      </strong>
 
-
-## Working Papers
-
-{% for workingpaper in site.data.working_papers.working_papers %}
-<div class="workingpaper-entry">
-  <div class="workingpaper-title">
-    <strong>
-      {% if workingpaper.pdf %}
-        <a href="{{ workingpaper.pdf }}">{{ workingpaper.title }}</a>
-      {% elsif workingpaper.link %}
-        <a href="{{ workingpaper.link }}">{{ workingpaper.title }}</a>
-      {% else %}
-        {{ workingpaper.title }}
+      {% if workingpaper.abstract %}
+        <button onclick="toggleAbstract('workingpaper-{{ forloop.index }}')" class="abstract-toggle" type="button">
+          Abstract
+        </button>
       {% endif %}
-    </strong>
+    </div>
+
+    <div class="workingpaper-info">
+      {% if workingpaper.authors and workingpaper.authors != "" %}
+        (with {{ workingpaper.authors }})
+      {% endif %}
+
+      {% if workingpaper.date %}
+        {% if workingpaper.authors and workingpaper.authors != "" %}, {% endif %}
+        {{ workingpaper.date }}
+      {% endif %}
+
+      {% if workingpaper.journal %}, <em>{{ workingpaper.journal }}</em>{% endif %}
+      {% if workingpaper.book %}, in <em>{{ workingpaper.book }}</em>{% endif %}
+      {% if workingpaper.editors %}, edited by {{ workingpaper.editors }}{% endif %}
+      {% if workingpaper.volume %}. vol.{{ workingpaper.volume }}{% endif %}
+      {% if workingpaper.pages %}, pp {{ workingpaper.pages }}{% endif %}
+
+      {% if workingpaper.publisher %}
+        {% if workingpaper.location %}
+          , {{ workingpaper.publisher }}, {{ workingpaper.location }}
+        {% else %}
+          , {{ workingpaper.publisher }}
+        {% endif %}
+      {% endif %}
+
+      {% if workingpaper.type %}, {{ workingpaper.type }}{% endif %}
+    </div>
 
     {% if workingpaper.abstract %}
-      <button
-        onclick="toggleAbstract('workingpaper-{{ workingpaper.id }}')"
-        class="abstract-toggle"
-      >
-        Abstract
-      </button>
+      <div id="abstract-workingpaper-{{ forloop.index }}" class="abstract" style="display:none;">
+        {{ workingpaper.abstract }}
+      </div>
     {% endif %}
   </div>
-
-  <div class="workingpaper-info">
-    {% if workingpaper.authors and workingpaper.authors != "" %}
-      (with {{ workingpaper.authors }})
-    {% endif %}
-
-    {% if workingpaper.date %}
-      {% if workingpaper.authors and workingpaper.authors != "" %}, {% endif %}
-      {{ workingpaper.date }}
-    {% endif %}
-
-    {% if workingpaper.journal %}, <em>{{ workingpaper.journal }}</em>{% endif %}
-    {% if workingpaper.book %}, in <em>{{ workingpaper.book }}</em>{% endif %}
-    {% if workingpaper.editors %}, edited by {{ workingpaper.editors }}{% endif %}
-    {% if workingpaper.volume %}. vol.{{ workingpaper.volume }}{% endif %}
-    {% if workingpaper.pages %}, pp {{ workingpaper.pages }}{% endif %}
-
-    {% if workingpaper.publisher %}
-      {% if workingpaper.location %}
-        , {{ workingpaper.publisher }}, {{ workingpaper.location }}
-      {% else %}
-        , {{ workingpaper.publisher }}
-      {% endif %}
-    {% endif %}
-
-    {% if workingpaper.type %}, {{ workingpaper.type }}{% endif %}
-  </div>
-
-  {% if workingpaper.abstract %}
-    <div
-      id="abstract-workingpaper-{{ workingpaper.id }}"
-      class="abstract"
-      style="display: none;"
-    >
-      {{ workingpaper.abstract }}
-    </div>
-  {% endif %}
+  {% endfor %}
 </div>
-{% endfor %}
+
+<script>
+  function showPapersTab(which) {
+    const pubBtn = document.getElementById('tab-published');
+    const workBtn = document.getElementById('tab-working');
+    const pubPanel = document.getElementById('panel-published');
+    const workPanel = document.getElementById('panel-working');
+
+    const isPublished = which === 'published';
+
+    pubBtn.classList.toggle('is-active', isPublished);
+    workBtn.classList.toggle('is-active', !isPublished);
+
+    pubBtn.setAttribute('aria-selected', isPublished ? 'true' : 'false');
+    workBtn.setAttribute('aria-selected', !isPublished ? 'true' : 'false');
+
+    pubPanel.classList.toggle('is-active', isPublished);
+    workPanel.classList.toggle('is-active', !isPublished);
+  }
+</script>
+
 
 
 ## Teaching
