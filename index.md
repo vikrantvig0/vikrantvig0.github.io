@@ -72,11 +72,17 @@ e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
 </div>
 
 <script>
-  function toggleBio() {
-    const bio = document.getElementById('bio-content');
-    bio.style.display = (bio.style.display === 'none') ? 'block' : 'none';
-  }
+function toggleBio() {
+  const section = document.querySelector('.bio-section');
+  const bio = document.getElementById('bio-content');
+
+  const isOpen = bio.style.display === 'block';
+
+  bio.style.display = isOpen ? 'none' : 'block';
+  section.classList.toggle('open', !isOpen);
+}
 </script>
+
 
 ## Papers
 
