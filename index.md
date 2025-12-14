@@ -32,6 +32,52 @@ e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
 
 </div>
 
+<div class="bio-section">
+  <button class="bio-toggle" onclick="toggleBio()" type="button">
+    Biography
+  </button>
+
+  <div id="bio-content" class="bio-content" style="display: none;">
+    <p>
+      I am the William R. Timken Chaired Professor of Finance at the Stanford Graduate School of Business,
+      Stanford University. Previously, I held the Henry D. Bullock Chaired Professorship of Finance at the
+      Kellogg School of Management and served as a Term Chair Professor of Finance at the London Business School.
+    </p>
+
+    <p>
+      My research interest lies at the intersection of Law, Politics, and Organizations. The objective of my
+      research is to further our understanding of ways by which we can structure financial contracts and design
+      institutions to improve the overall efficiency of credit markets.
+    </p>
+
+    <p>
+      My papers have been published in leading journals, including the <em>American Economic Review</em>,
+      <em>Quarterly Journal of Economics</em>, <em>Journal of Political Economy</em>, <em>Journal of Finance</em>,
+      <em>Journal of Financial Economics</em>, and <em>Review of Financial Studies</em>.
+      I was previously Editor of the <em>Review of Finance</em> and later served on the advisory board of that journal.
+    </p>
+
+    <p>
+      My research has won several awards and has been featured in leading media outlets, including
+      <em>The Economist</em>, <em>The Financial Times</em>, <em>The New York Times</em>, and
+      <em>The Wall Street Journal</em>.
+    </p>
+
+    <p>
+      I received my PhD (with Distinction) from Columbia University; a Master of Finance, an MBA, and a Master
+      of Science in Engineering from the University of Illinois; and my bachelor’s degree in mechanical
+      engineering from the University of Delhi.
+    </p>
+  </div>
+</div>
+
+<script>
+  function toggleBio() {
+    const bio = document.getElementById('bio-content');
+    bio.style.display = (bio.style.display === 'none') ? 'block' : 'none';
+  }
+</script>
+
 ## Papers
 
 <div class="papers-tabs" role="tablist" aria-label="Papers tabs">
