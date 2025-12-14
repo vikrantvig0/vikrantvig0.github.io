@@ -78,6 +78,7 @@ e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
 </div>
 {% endfor %}
 
+
 ## Working Papers
 
 {% for workingpaper in site.data.working_papers.working_papers %}
@@ -145,5 +146,15 @@ e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
 
 ## Teaching
 
-This list includes non-proprietary data (includes all data that I can distribute). Please, note that if a dataset is offered to paying institutions through a contract, I cannot distribute those data. Read the appendix of the relevant paper before contacting me with further requests.
+Advanced Corporate Valuation
+
+Capital Markets and Financing
+
+PhD Econometrics
+
+PhD Financial Economics III (Corporate Finance)
+
+Foundations of Finance
+
+Investments
 
