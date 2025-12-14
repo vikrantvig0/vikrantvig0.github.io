@@ -1,24 +1,28 @@
- -title: The Limits of Model-Based Regulation
+- id: 1
+  title: The Limits of Model-Based Regulation
   pdf: assets/papers/2022_JF.pdf
   authors: M. Behn and R. Haselmann
   journal: Journal of Finance
   date: 2022
   abstract: Using loan-level data from Germany, we investigate how the introduction of modelbased capital regulation affected banks’ ability to absorb shocks. The objective of this regulation was to enhance financial stability by making capital requirements responsive to asset risk. Our evidence suggests that banks ‘optimized’ model-based regulation to lower their capital requirements. Banks systematically underreported risk, with underreporting being more pronounced for banks with higher gains from it. Moreover, large banks benefitted from the regulation at the expense of smaller banks. Overall, our results suggest that sophisticated rules may have undesired effects if strategic misbehavior is difficult to detect.
 
- -title: "Talent in Distressed Firms: Investigating the Labor Costs of Financial Distress"
+- id: 2
+  title: "Talent in Distressed Firms: Investigating the Labor Costs of Financial Distress"
   pdf: assets/papers/2021_JF.pdf
   authors: R. Baghai, R. Silva and V. Thell
   journal: Journal of Finance
   date: 2021
   abstract: "The importance of skilled labor and the inalienability of human capital expose firms to the risk of losing talent at critical times. Using Swedish microdata, we document that firms lose workers with the highest cognitive and noncognitive skills as they approach bankruptcy. In a quasi-experiment, we confirm that financial distress drives these results: following a negative export shock caused by exogenous currency movements, talent abandons the firm, but only if the exporter is highly leveraged. Consistent with talent dependence being associated with higher labor costs of financial distress, firms that rely more on talent have more conservative capital structures."
 
+- id: 3
   title: Leverage Buyouts and Bond Credit Spreads
   pdf: assets/papers/2020_JFE.pdf
   authors: Y. Eisenthal and P. Feldhutter
   journal: Journal of Financial Economics 
   date: 2020
   abstract: Recent decades have witnessed several waves of buyout activity. We find leveraged buyouts (LBOs) to be a significant concern for bondholders by showing that a) intra-industry credit spreads increase upon an LBO announcement, b) yields on bonds without event risk covenants are, on average, 21 basis points higher than those on same-firm bonds with such covenants, and c) structural models calibrated to historical LBO events imply an impact of 18–21 basis points on 10-year credit spreads. The impact is strongest in expansion periods and for bonds with maturities of 10–20 years.
-  
+
+- id: 4
   title: Experience of Communal Conflicts and Inter-group Lending
   pdf: assets/papers/2020_JPE.pdf
   authors: R. Fisman, A.Sarkar and J. Skrastins
@@ -26,6 +30,7 @@
   date: 2020
   abstract: We provide microeconomic evidence on ethnic frictions and market efficiency, using dyadic data on managers and borrowers from a large Indian bank. We conjecture that, if exposure to religion-based communal violence intensifies intergroup animosity, riot exposure will lead to lending decisions that are more sensitive to a borrower’s religion. We find that riot-exposed Hindu branch managers lend relatively less to Muslim borrowers and that these loans are less likely to default, consistent with riot exposure exacerbating taste-based discrimination. This bias is persistent across a bank officer’s tenure, suggesting that the economic costs of ethnic conflict are long-lasting, potentially spanning across generations.
 
+- id: 5
   title: How Organizational Hierarchy Affects Information Production
   pdf: assets/papers/2019_RFS.pdf
   authors: J. Skrastins
@@ -33,6 +38,7 @@
   date: 2019
   abstract: We exploit a variation in organizational hierarchy induced by a reorganization plan implemented in roughly 2,000 bank branches in India. We do so to investigate how organizational hierarchy affects the allocation of credit. We find that increased hierarchization of a branch induces credit rationing, reduces loan performance, and generates standardization in loan contracts. Additionally, we find that hierarchical structures perform better in environments characterized by a high degree of corruption, highlighting the benefits of hierarchies in restraining rent-seeking activities. Overall, our results are consistent with the view that valuable information may be lost in hierarchical structures.
 
+- id: 6
   title: Rent Seeking in Elite Networks
   pdf: assets/papers/2018_JPE.pdf
   authors: R. Haselmann and D. Schoenherr
@@ -40,6 +46,7 @@
   date: 2018
   abstract: We employ a unique data set on members of an elite service club in Germany to investigate how social connections in elite networks affect the allocation of resources. Specifically, we investigate credit allocation decisions of banks to firms inside the network. Using a quasi-experimental research design, we document misallocation of bank credit inside the network, with bankers with weakly aligned incentives engaging most actively in crony lending. Our findings, thus, resonate with existing theories of elite networks as rent extractive coalitions that stifle economic prosperity.
 
+- id: 7
   title: Cultural Proximity and Loan Outcomes
   pdf: assets/papers/2017_AER.pdf
   authors: R. Fisman and D. Paravisini
@@ -47,6 +54,7 @@
   date: 2017
   abstract: We present evidence that cultural proximity (shared codes, beliefs, ethnicity) between lenders and borrowers increases the quantity of credit and reduces default. We identify in-group lending using dyadic data on religion and caste for officers and borrowers from an Indian bank, and a rotation policy that induces exogenous matching between them. Having an in-group officer increases credit access and loan size dispersion, reduces collateral requirements, and induces better repayment even after the in-group officer leaves. We consider a range of explanations and suggest that the findings are most easily explained by cultural proximity serving to mitigate information frictions in lending.
 
+- id: 8
   title: Labor Protection and Leverage
   pdf: assets/papers/2015_RFS.pdf
   authors: E. Simintzi and P. Volpin
@@ -54,6 +62,7 @@
   date: 2015
   abstract: This paper exploits intertemporal variations in employment protection across countries and finds that rigidities in labor markets are an important determinant of firms' capital structure decisions. Over the 1985–2007 period, we find that reforms increasing employment protection are associated with a 187 basis point reduction in leverage. We interpret this finding to suggest that employment protection increases operating leverage, crowding out financial leverage. This result does not appear to be due to pretreatment differences between treated and control firms, omitted variables, unobserved changes in regional economic conditions, and reverse causality. Heterogeneous treatment effects are consistent with our economic intuition.
 
+- id: 9
   title: "The Failure of Models that Predict Failure: Distance, Incentives, and Defaults"
   pdf: assets/papers/2015_JFE.pdf
   authors: U. Rajan and A. Seru
@@ -61,6 +70,7 @@
   date: 2015
   abstract: "Statistical default models, widely used to assess default risk, fail to account for a change in the relations between different variables resulting from an underlying change in agent behavior. We demonstrate this phenomenon using data on securitized subprime mortgages issued in the period 1997–2006. As the level of securitization increases, lenders have an incentive to originate loans that rate high based on characteristics that are reported to investors, even if other unreported variables imply a lower borrower quality. Consistent with this behavior, we find that over time lenders set interest rates only on the basis of variables that are reported to investors, ignoring other credit-relevant information. As a result, among borrowers with similar reported characteristics, over time the set that receives loans becomes worse along the unreported information dimension. This change in lender behavior alters the data generating process by transforming the mapping from observables to loan defaults. To illustrate this effect, we show that the interest rate on a loan becomes a worse predictor of default as securitization increases. Moreover, a statistical default model estimated in a low securitization period breaks down in a high securitization period in a systematic manner: it underpredicts defaults among borrowers for whom soft information is more valuable. Regulations that rely on such models to assess default risk could, therefore, be undermined by the actions of market participants."
 
+- id: 10
   title: The Private Returns to Public Office
   pdf: assets/papers/2014_JPE.pdf
   authors: F. Schulz and R. Fisman
@@ -68,12 +78,14 @@
   date: 2014
   abstract: We study the wealth accumulation of Indian state politicians using public disclosures required of all candidates. The annual asset growth of winners is 3–5 percent higher than that of runners-up, a difference that holds also in a set of close elections. The relative asset growth of winners is greater in more corrupt states and for those holding ministerial positions. These results are consistent with a rent-seeking explanation for the relatively high rate of growth in winners’ assets.
 
+- id: 11
   title: "Access to Collateral and Corporate Debt Structure: Evidence from a Natural Experiment"
   pdf: assets/papers/2013_JF.pdf
   journal: Journal of Finance 
   date: 2013
   abstract: We investigate how firms respond to strengthening of creditor rights by examining their financial decisions following a securitization reform in India. We find that the reform led to a reduction in secured debt, total debt, debt maturity, and asset growth, and an increase in liquidity hoarding by firms. Moreover, the effects are more pronounced for firms that have a higher proportion of tangible assets because these firms are more affected by the secured transactions law. These results suggest that strengthening of creditor rights introduces a liquidation bias and documents how firms alter their debt structures to contract around it.
 
+- id: 12
   title: "Lender Screening and the Role of Securitization: Evidence from Prime and Subprime Mortgage Markets"
   pdf: assets/papers/2012_RFS.pdf
   authors: B. Keys and A. Seru
@@ -81,6 +93,7 @@
   date: 2012
   abstract: "This article examines the link between mortgage securitization and lender screening during the boom and bust of the U.S. housing market. Using comprehensive data on both prime and subprime securitized and bank-held loans, we provide evidence that securitization affected lenders' screening decisions in the subprime market for low-documentation loans through two channels: the securitization rate and the time it takes to securitize a loan. The change in decision-making by subprime lenders occurs on dimensions that are unreported to investors. Examining the time-series evolution of the securitization market further reinforces these findings. We exploit heterogeneity across subprime and prime markets to illustrate that the potential for moral hazard may be reduced with greater collection of hard information and increased monitoring of lenders. Our results suggest that the policy debate regarding securitization and lenders' underwriting standards should separately evaluate the agency and non-agency markets, with special attention toward the extent of soft information in assets being securitized."
 
+- id: 13
   title: Did Securitization Lead to Lax Screening? Evidence from Subprime Loans
   pdf: assets/papers/2010_QJE.pdf
   authors: B. Keys, T.Mukherjee and A. Seru
@@ -88,6 +101,7 @@
   date: 2010
   abstract: "A central question surrounding the current subprime crisis is whether the securitization process reduced the incentives of financial intermediaries to carefully screen borrowers. We examine this issue empirically using data on securitized subprime mortgage loan contracts in the United States. We exploit a specific rule of thumb in the lending market to generate exogenous variation in the ease of securitization and compare the composition and performance of lenders' portfolios around the ad hoc threshold. Conditional on being securitized, the portfolio with greater ease of securitization defaults by around 10%–25% more than a similar risk profile group with a lesser ease of securitization. We conduct additional analyses to rule out differential selection by market participants around the threshold and lenders employing an optimal screening cutoff unrelated to securitization as alternative explanations. The results are confined to loans where intermediaries' screening effort may be relevant and soft information about borrowers determines their creditworthiness. Our findings suggest that existing securitization practices did adversely affect the screening incentives of subprime lenders."
 
+- id: 14
   title: How Law Affects Lending
   pdf: assets/papers/2010_RFS.pdf
   authors: R. Haselmann and K. Pistor
@@ -95,3 +109,38 @@
   date: 2010
   abstract: The paper investigates the effect of legal change on the lending behavior of banks in twelve transition economies. First, we find that banks increase the supply of credit subsequent to legal change. Second, changes in collateral law matter more for increases in bank lending than do changes in bankruptcy law. We attribute this finding to the different functions of collateral and bankruptcy law. While the former enhances the likelihood that individual creditors can realize their claims against a debtor, the latter ensures an orderly process for resolving multiple, and often conflicting, claims after a debtor has become insolvent. Finally, we find that foreign-owned banks respond more strongly to legal change than incumbents.
 
+- id: 15
+  title: "Securitization and Distressed Loan Renegotiation: Evidence from Prime and Subprime Mortgage Markets"
+  pdf: assets/papers/2010_JFE.pdf
+  authors: T. Piskorski and A. Seru
+  journal: Journal of Financial Economics
+  date: 2010
+  abstract: "We examine whether securitization impacts renegotiation decisions of loan servicers, focusing on their decision to foreclose a delinquent loan. Conditional on a loan becoming seriously delinquent, we find a significantly lower foreclosure rate associated with bank-held loans when compared to similar securitized loans: across various specifications and origination vintages, the foreclosure rate of delinquent bank-held loans is 3% to 7% lower in absolute terms (13% to 32% in relative terms). There is a substantial heterogeneity in these effects with large effects among borrowers with better credit quality and small effects among lower quality borrowers. A quasi-experiment that exploits a plausibly exogenous variation in securitization status of a delinquent loan confirms these results."
+
+- id: 16
+  title: Statistical Default Models and Incentives
+  pdf: assets/papers/2010_AERPP.pdf
+  authors: U. Rajan and A. Seru
+  journal: "American Economie Review: Papers & Proceeding"
+  date: 2010
+
+- id: 17
+  title: "Financial Regulation and Securitization: Evidence from Subprime Loans"
+  pdf: assets/papers/2009_JME.pdf
+  authors: B. Keys, T. Mukherjee and A. Seru
+  journal: Journal of Monetary Economics
+  date: 2010
+  abstract: We examine the consequences of existing regulations on the quality of mortgage loans originations in the originate-to-distribute (OTD) market. The information asymmetries in the OTD market can lead to moral hazard problems on the part of lenders. We find, using a plausibly exogenous source of variation in the ease of securitization, that the quality of loan origination varies inversely with the amount of regulation: more regulated lenders originate loans of worse quality. We interpret this result as a possible evidence that the fragility of lightly regulated originators’ capital structure can mitigate moral hazard. In addition, we find that incentives which require mortgage brokers to have ‘skin in the game’ and stronger risk management departments inside the bank partially alleviate the moral hazard problem in this setting. Finally, having more lenders inside a mortgage pool is associated with higher quality loans, suggesting that sharper relative performance evaluation made possible by more competition among contributing lenders can also mitigate the moral hazard problem to some extent. Overall, our evidence suggests that market forces rather than regulation may have been more effective in mitigating moral hazard in the OTD market. The findings caution against policies that impose stricter lender regulations which fail to align lenders’ incentives with the investors of mortgage-backed securities.
+
+- id: 18
+  title: The Unintended Effects of SOXJournal of Institutional and Theoretical Economics
+  pdf: assets/papers/2011_JITE.pdf
+  authors: V. Chhaochharia and C. Otto
+  date: 2011
+
+- id: 19
+  title: On the Distribution of Lin-Kerninghan Travelling Salesman Tour Lengths
+  pdf: assets/papers/2008_EJOR.pdf
+  authors: U. Palekar
+  journal: European Journal of Operations Research
+  date: 2008
