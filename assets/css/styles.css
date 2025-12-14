@@ -44,12 +44,12 @@ h2 { font-size: 16px; }
 
 /* ===== Top logo ===== */
 .top-logo {
-    margin: 10px 0 16px 10px;   
+    margin: 6px 0 14px 6px;   
 }
 
 .top-logo img {
     width: auto;         
-    height: 160px;              
+    height: 150px;              
     display: block;
 }
 
