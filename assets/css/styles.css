@@ -292,3 +292,42 @@ footer {
     }
 }
 
+/* ===== Papers Tabs ===== */
+.papers-tabs {
+    display: flex;
+    gap: 10px;
+    margin: 12px 0 14px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.tab-btn {
+    appearance: none;
+    background: #fff;
+    border: 1px solid rgba(140, 21, 21, 0.35);
+    color: #8C1515;
+    padding: 0.35em 0.9em;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.tab-btn:hover {
+    background: #f7f7f7;
+    text-decoration: none;
+}
+
+.tab-btn.is-active {
+    background: #8C1515;
+    border-color: #8C1515;
+    color: #fff;
+}
+
+/* Panels: only show active */
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.is-active {
+    display: block;
+}
