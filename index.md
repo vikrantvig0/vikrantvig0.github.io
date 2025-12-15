@@ -39,7 +39,7 @@ e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
 
   <div id="bio-content" class="bio-content" style="display: none;">
     <p>
-      I am the William R. Timken Chaired Professor of Finance at the Stanford Graduate School of Business,
+      I am the William R. Timken Chaired Professor of Finance at the Graduate School of Business,
       Stanford University. Previously, I held the Henry D. Bullock Chaired Professorship of Finance at the
       Kellogg School of Management and served as a Term Chair Professor of Finance at the London Business School.
     </p>
