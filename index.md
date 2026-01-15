@@ -114,19 +114,41 @@ function toggleBio() {
 
 <div class="tab-panel is-active" id="panel-published" role="tabpanel" aria-labelledby="tab-published">
   {% for paper in site.data.papers %}
+
+  {%- assign pdf_name = paper.pdf | split:'/' | last -%}
+  {%- assign paper_id = pdf_name | remove:'.pdf' | remove:'.PDF' -%}
+
   <div class="paper-entry">
     <div class="paper-title">
       {{ forloop.index }}.
-      <strong><a href="{{ paper.pdf }}">{{ paper.title }}</a></strong>
+      <strong>
+        <a
+          href="{{ paper.pdf | relative_url }}"
+          data-paper-id="{{ paper_id }}"
+          data-paper-title="{{ paper.title | escape }}"
+          data-click-type="pdf"
+        >{{ paper.title }}</a>
+      </strong>
 
       {% if paper.appendix %}
-        <a href="{{ paper.appendix }}" class="appendix-link">[Appendix]</a>
+        <a
+          href="{{ paper.appendix | relative_url }}"
+          class="appendix-link"
+          data-paper-id="{{ paper_id }}"
+          data-paper-title="{{ paper.title | escape }}"
+          data-click-type="appendix"
+        >[Appendix]</a>
       {% endif %}
 
       {% if paper.abstract %}
-        <button onclick="toggleAbstract('paper-{{ forloop.index }}')" class="abstract-toggle" type="button">
-          Abstract
-        </button>
+        <button
+          class="abstract-toggle"
+          type="button"
+          data-paper-id="{{ paper_id }}"
+          data-paper-title="{{ paper.title | escape }}"
+          data-abstract-target="abstract-paper-{{ forloop.index }}"
+          onclick="toggleAbstractById(this.dataset.abstractTarget)"
+        >Abstract</button>
       {% endif %}
     </div>
 
@@ -147,25 +169,49 @@ function toggleBio() {
   {% endfor %}
 </div>
 
+
 <div class="tab-panel" id="panel-working" role="tabpanel" aria-labelledby="tab-working">
   {% for workingpaper in site.data.working_papers.working_papers %}
+
+  {%- if workingpaper.pdf and workingpaper.pdf != "" -%}
+    {%- assign wp_name = workingpaper.pdf | split:'/' | last -%}
+    {%- assign wp_id = wp_name | remove:'.pdf' | remove:'.PDF' -%}
+  {%- else -%}
+    {%- assign wp_id = workingpaper.title | slugify -%}
+  {%- endif -%}
+
   <div class="workingpaper-entry">
     <div class="workingpaper-title">
       {{ forloop.index }}.
       <strong>
         {% if workingpaper.pdf %}
-          <a href="{{ workingpaper.pdf }}">{{ workingpaper.title }}</a>
+          <a
+            href="{{ workingpaper.pdf | relative_url }}"
+            data-paper-id="{{ wp_id }}"
+            data-paper-title="{{ workingpaper.title | escape }}"
+            data-click-type="pdf"
+          >{{ workingpaper.title }}</a>
         {% elsif workingpaper.link %}
-          <a href="{{ workingpaper.link }}">{{ workingpaper.title }}</a>
+          <a
+            href="{{ workingpaper.link }}"
+            data-paper-id="{{ wp_id }}"
+            data-paper-title="{{ workingpaper.title | escape }}"
+            data-click-type="external"
+          >{{ workingpaper.title }}</a>
         {% else %}
           {{ workingpaper.title }}
         {% endif %}
       </strong>
 
       {% if workingpaper.abstract %}
-        <button onclick="toggleAbstract('workingpaper-{{ forloop.index }}')" class="abstract-toggle" type="button">
-          Abstract
-        </button>
+        <button
+          class="abstract-toggle"
+          type="button"
+          data-paper-id="{{ wp_id }}"
+          data-paper-title="{{ workingpaper.title | escape }}"
+          data-abstract-target="abstract-workingpaper-{{ forloop.index }}"
+          onclick="toggleAbstractById(this.dataset.abstractTarget)"
+        >Abstract</button>
       {% endif %}
     </div>
 
@@ -173,18 +219,15 @@ function toggleBio() {
       {% if workingpaper.authors and workingpaper.authors != "" %}
         (with {{ workingpaper.authors }})
       {% endif %}
-
       {% if workingpaper.date %}
         {% if workingpaper.authors and workingpaper.authors != "" %}, {% endif %}
         {{ workingpaper.date }}
       {% endif %}
-
       {% if workingpaper.journal %}, <em>{{ workingpaper.journal }}</em>{% endif %}
       {% if workingpaper.book %}, in <em>{{ workingpaper.book }}</em>{% endif %}
       {% if workingpaper.editors %}, edited by {{ workingpaper.editors }}{% endif %}
       {% if workingpaper.volume %}. vol.{{ workingpaper.volume }}{% endif %}
       {% if workingpaper.pages %}, pp {{ workingpaper.pages }}{% endif %}
-
       {% if workingpaper.publisher %}
         {% if workingpaper.location %}
           , {{ workingpaper.publisher }}, {{ workingpaper.location }}
@@ -192,7 +235,6 @@ function toggleBio() {
           , {{ workingpaper.publisher }}
         {% endif %}
       {% endif %}
-
       {% if workingpaper.type %}, {{ workingpaper.type }}{% endif %}
     </div>
 
@@ -223,7 +265,14 @@ function toggleBio() {
     pubPanel.classList.toggle('is-active', isPublished);
     workPanel.classList.toggle('is-active', !isPublished);
   }
+
+  function toggleAbstractById(id) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.style.display = (el.style.display === 'none' || !el.style.display) ? 'block' : 'none';
+  }
 </script>
+
 
 
 
