@@ -1,4 +1,12 @@
 working_papers:
   - id: 1
-    title: "Decomposing Fire Sale Discounts"
+    title: "Distressed Sales and Asset Misallocation"
     authors: "J. Franks, G. Seth, O. Sussman"
+    
+  - id: 2
+    title: "Capital Regulation, Market-Making, and Liquidity"
+    authors: "R. Haselmann, T. Kick, S. Singla"
+
+   - id: 3
+    title: "The Political Economy of Decentralization: Evidence from Bank Bailouts"
+    authors: "B. Bian, R. Haselmann, T. Kick"
