@@ -6,12 +6,14 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="{{ 'assets/css/styles.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
     <div class="container">
         {{ content }}
     </div>
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 
     <!-- GA4 event tracking for papers/abstract -->
     <script src="{{ 'assets/js/track-papers.js' | relative_url }}"></script>
