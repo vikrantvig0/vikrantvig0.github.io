@@ -19,7 +19,7 @@
   date: 2021
   abstract: "The importance of skilled labor and the inalienability of human capital expose firms to the risk of losing talent at critical times. Using Swedish microdata, we document that firms lose workers with the highest cognitive and noncognitive skills as they approach bankruptcy. In a quasi-experiment, we confirm that financial distress drives these results: following a negative export shock caused by exogenous currency movements, talent abandons the firm, but only if the exporter is highly leveraged. Consistent with talent dependence being associated with higher labor costs of financial distress, firms that rely more on talent have more conservative capital structures."
 
-- title: "Leverage Buyouts and Bond Credit Spreads"
+- title: "Leveraged Buyouts and Bond Credit Spreads"
   pdf: assets/papers/2020_JFE.pdf
   authors: "Y. Eisenthal and P. Feldhutter"
   journal: "Journal of Financial Economics"
@@ -112,7 +112,7 @@
 - title: "Statistical Default Models and Incentives"
   pdf: assets/papers/2010_AERPP.pdf
   authors: "U. Rajan and A. Seru"
-  journal: "American Economie Review: Papers & Proceeding"
+  journal: "American Economic Review: Papers & Proceedings"
   date: 2010
 
 - title: "Financial Regulation and Securitization: Evidence from Subprime Loans"
@@ -122,13 +122,14 @@
   date: 2009
   abstract: "We examine the consequences of existing regulations on the quality of mortgage loans originations in the originate-to-distribute (OTD) market. The information asymmetries in the OTD market can lead to moral hazard problems on the part of lenders. We find, using a plausibly exogenous source of variation in the ease of securitization, that the quality of loan origination varies inversely with the amount of regulation: more regulated lenders originate loans of worse quality. We interpret this result as a possible evidence that the fragility of lightly regulated originators’ capital structure can mitigate moral hazard. In addition, we find that incentives which require mortgage brokers to have ‘skin in the game’ and stronger risk management departments inside the bank partially alleviate the moral hazard problem in this setting. Finally, having more lenders inside a mortgage pool is associated with higher quality loans, suggesting that sharper relative performance evaluation made possible by more competition among contributing lenders can also mitigate the moral hazard problem to some extent. Overall, our evidence suggests that market forces rather than regulation may have been more effective in mitigating moral hazard in the OTD market. The findings caution against policies that impose stricter lender regulations which fail to align lenders’ incentives with the investors of mortgage-backed securities."
   
-- title: "The Unintended Effects of SOXJournal of Institutional and Theoretical Economics"
+- title: "The Unintended Effects of SOX"
   pdf: assets/papers/2011_JITE.pdf
   authors: "V. Chhaochharia and C. Otto"
+  journal: "Journal of Institutional and Theoretical Economics"
   date: 2011
 
 - title: "On the Distribution of Lin-Kerninghan Travelling Salesman Tour Lengths"
   pdf: assets/papers/2008_EJOR.pdf
   authors: "U. Palekar"
-  journal: "European Journal of Operations Research"
+  journal: "European Journal of Operational Research"
   date: 2008
