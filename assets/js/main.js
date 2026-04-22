@@ -1,11 +1,13 @@
 function toggleBio() {
   const section = document.querySelector('.bio-section');
+  const btn = section ? section.querySelector('.bio-toggle') : null;
   const bio = document.getElementById('bio-content');
 
   const isOpen = bio.style.display === 'block';
 
   bio.style.display = isOpen ? 'none' : 'block';
   section.classList.toggle('open', !isOpen);
+  if (btn) btn.setAttribute('aria-expanded', String(!isOpen));
 }
 
 function showPapersTab(which) {
