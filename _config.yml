@@ -1,7 +1,7 @@
 title: Vikrant Vig
 description: Academic Website
 baseurl: ""
-url: ""
+url: "https://vikrantvig.com"
 
 # Build settings
 markdown: kramdown
