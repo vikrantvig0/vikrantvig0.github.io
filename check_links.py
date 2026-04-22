@@ -105,8 +105,7 @@ def main():
     yaml_files = [
         '_data/papers.yml',
         '_data/datasets.yml',
-        '_data/other_writings.yml',
-        '_data/summaries.yml'  # Added summaries.yml
+        '_data/summaries.yml'
     ]
     
     for yaml_file in yaml_files:
