@@ -20,9 +20,9 @@ Graduate School of Business, Stanford University
 
 e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
 
-[Curriculum Vitae]({{ '/assets/cv/CV.pdf' | relative_url }})  
-[Stanford GSB page](https://www.gsb.stanford.edu/faculty-research/faculty/vikrant-vig)  
-[Google Scholar Page](https://scholar.google.com/citations?user=dol7xHwAAAAJ&hl=en)
+[Curriculum Vitae]({{ '/assets/cv/CV.pdf' | relative_url }}){:data-profile-link="cv"}  
+[Stanford GSB page](https://www.gsb.stanford.edu/faculty-research/faculty/vikrant-vig){:data-profile-link="gsb"}  
+[Google Scholar Page](https://scholar.google.com/citations?user=dol7xHwAAAAJ&hl=en){:data-profile-link="scholar"}
 
 {% endcapture %}
 {{ profile_content | markdownify }}
