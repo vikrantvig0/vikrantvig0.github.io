@@ -36,7 +36,7 @@
       const paperTitle = btn.getAttribute("data-paper-title") || "";
       const targetId = btn.getAttribute("data-abstract-target") || "";
 
-       
+
       setTimeout(function () {
         const el = targetId ? document.getElementById(targetId) : null;
         const isOpen = el ? (el.style.display !== "none") : null;
@@ -47,6 +47,21 @@
           is_open: isOpen
         });
       }, 0);
+    },
+    { capture: true }
+  );
+
+  // 3) track profile links (CV / GSB / Google Scholar)
+  document.addEventListener(
+    "click",
+    function (e) {
+      const a = e.target.closest("a[data-profile-link]");
+      if (!a) return;
+
+      send("profile_link_click", {
+        link_type: a.getAttribute("data-profile-link") || "",
+        link_url: a.getAttribute("href") || ""
+      });
     },
     { capture: true }
   );
