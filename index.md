@@ -28,12 +28,12 @@ e-mail: [vvig@stanford.edu](mailto:vvig@stanford.edu)
 {{ profile_content | markdownify }}
 </div>
 
-<img src="{{ '/assets/images/profile.png' | relative_url }}" alt="vikrant vig" class="profile-image">
+<img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Vikrant Vig" class="profile-image">
 
 </div>
 
 <div class="bio-section">
-  <button class="bio-toggle" onclick="toggleBio()" type="button">
+  <button class="bio-toggle" onclick="toggleBio()" type="button" aria-expanded="false" aria-controls="bio-content">
     Biography
   </button>
 
